@@ -1,0 +1,60 @@
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .chat-bot {
+    width: 90%;
+    margin-left: 20%;
+    height: 630px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    height: 600px;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .fas {
+    margin-left: -45px;
+    margin-top: 15px;
+  }
+
+  .close-button {
+    margin-right: -40px;
+  }
+  .justify-content-center {
+    align-items: center;
+  }
+
+  .fa-comments {
+    position: fixed;
+    width: 100%;
+    margin-left: -85px;
+    margin-top: 10px;
+  }
+}
+
+/* ukuran medium / tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .chat-bot {
+    width: 60%;
+    margin-left: 20%;
+    height: 700px;
+    margin-left: 35%;
+    margin-right: 5%;
+    margin-top: 230px;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: -13px;
+  }
+
+  .fa-comments {
+    position: fixed;
+    width: 100%;
+    margin-left: -85px;
+    margin-top: 30px;
+  }
+}

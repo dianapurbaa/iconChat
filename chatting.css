@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* load typing */
+#active-load {
+  display: inline-block;
+}
+
+#off-load {
+  display: none;
+}
+
+/* SETTING CHAT MESSAGE */
+.message-active {
+  display: none;
+}
+
+/* question name */
+
+.question-name {
+  padding-left: 21px;
+}
+
+.card {
+  width: 22rem;
+}
+.question-name input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.question-name button {
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+}
+/* ======== CHAT BOT ======= */
+.chat-bot {
+  position: fixed;
+
+  box-sizing: border-box;
+  border: 2px solid;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+
+  width: 400px;
+  height: 500px;
+
+  margin-left: 65vw;
+  margin-top: 5vh;
+
+  transform: scaleY(0);
+
+  transition: all 0.3s ease-out;
+}
+
+/* ===== EVENT CHAT BOT ACTIVE ====== */
+.chat-bot.active {
+  transform: scaleY(1);
+}
+
+/* ======== CLOSE BUTTON ======= */
+.close-button {
+  position: relative;
+  cursor: pointer;
+  width: 380px;
+}
+.close-button i {
+  position: absolute;
+  padding-left: 330px;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.close-button i:hover {
+  color: red;
+}
+
+/* ======= MSG HEADER ====== */
+.msg-header {
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 2px 0px 9px rgba(0, 0, 0, 0.8);
+}
+.msg-header-img img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* ========= MSG BOX ====== */
+.msg-box {
+  box-sizing: border-box;
+
+  height: 365px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.msg-box::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ======= MSG BOT ======= */
+.msg-bot {
+  width: fit-content;
+  max-width: 360px;
+  padding: 10px;
+  border-radius: 20px 20px 20px 0px;
+}
+
+/* ======= MSG USER ======= */
+.msg-user {
+  width: fit-content;
+  max-width: 360px;
+  padding: 10px;
+  border-radius: 20px 20px 0px 20px;
+}
+
+/* ========= END MSG BOX ======= */
+
+/* ====== FORM INPUT ===== */
+.form-input i {
+  font-size: 25px;
+  background-color: white;
+}
+/* .form-input .border-textrea {
+          border: 4px solid yellow;
+          height: 40px;
+          border-radius: 20px;
+          border: hidden;
+        } */
+.form-input textarea {
+  width: 320px;
+  height: 40px;
+  padding: 2px;
+  border: 3px solid rgb(255, 166, 0);
+  border-radius: 10px;
+}
+.form-input button {
+  border: hidden;
+}
+
+.btn-send {
+  margin-left: -20px;
+}
+/* ======== END CHAT BOT ======= */
+
+/* ======= CHAT ICON ======= */
+.chat-icon span {
+  position: fixed;
+  font-size: 100px;
+  margin-left: 85vw;
+  margin-top: 80vh;
+}
+
+/* ============ END CHAT ICON ====== */
